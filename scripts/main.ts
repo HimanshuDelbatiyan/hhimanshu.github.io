@@ -181,7 +181,7 @@
                 divContainer.innerHTML =
                     `
                                     <div class="card" >
-                                        <img src="../content/images/${teamMemberPic[i]}.jpg" class="card-img-top" style="height: 200px; ">
+                                        <img src="images/${teamMemberPic[i]}.jpg" class="card-img-top" style="height: 200px; ">
                                         <div class="card-body">
                                             <h5 class="card-title">${teamMemberInfo[i][0]}</h5>
                                             <p class="card-text">${teamMemberInfo[i][1]}</p>
@@ -1696,7 +1696,7 @@
          * Using the Jquery AJAX get Shorthand Method to asynchronously get the
          * data from the JSON File.
          */
-        $.get("./views/components/header.html", function(data)// Fix for Github
+        $.get("./views/components/header.html", function(data)
         {
             /**
              * Selecting the header tag

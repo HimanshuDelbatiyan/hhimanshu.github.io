@@ -560,7 +560,7 @@
         });
     }
     function AddHeaders() {
-        $.get("./views/components/header.html", function (data) {
+        $.get("./Assignment_1/views/components/header.html", function (data) {
             $("header").append(data);
             document.title = router.ActiveLink;
             let newNavLink = document.createElement("li");
