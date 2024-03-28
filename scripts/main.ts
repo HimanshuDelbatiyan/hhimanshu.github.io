@@ -1042,7 +1042,7 @@
                                  * Redirect the user to contact list page !
                                  * @type {string}
                                  */
-                                LoadLink("services");
+                                LoadLink("statistics");
 
                             }, 4000)
 
