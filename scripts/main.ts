@@ -181,7 +181,7 @@
                 divContainer.innerHTML =
                     `
                                     <div class="card" >
-                                        <img src="images/${teamMemberPic[i]}.jpg" class="card-img-top" style="height: 200px; ">
+                                        <img src="../content/images/${teamMemberPic[i]}.jpg" class="card-img-top" style="height: 200px; ">
                                         <div class="card-body">
                                             <h5 class="card-title">${teamMemberInfo[i][0]}</h5>
                                             <p class="card-text">${teamMemberInfo[i][1]}</p>
