@@ -1696,7 +1696,7 @@
          * Using the Jquery AJAX get Shorthand Method to asynchronously get the
          * data from the JSON File.
          */
-        $.get("./Assignment_1/views/components/header.html", function(data)
+        $.get("./views/components/header.html", function(data)
         {
             /**
              * Selecting the header tag
